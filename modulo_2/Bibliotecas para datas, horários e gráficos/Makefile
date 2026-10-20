@@ -4,3 +4,5 @@ LDFLAGS += -L$(HOME)/.local/lib -Wl,-rpath,$(HOME)/.local/lib
 LDLIBS  += -lSDL2_bgi -lSDL2 -lm
 
 graficos: graficos.c
+graficos2: graficos2.c
+circulo: circulo.c
